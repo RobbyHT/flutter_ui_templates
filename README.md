@@ -21,7 +21,7 @@ samples, guidance on mobile development, and a full API reference.
 於pubspec.yaml的dependencies下加入universal_io: ^1.0.1
 (請注意縮排，多一個少一個都不行)
 <br/>
-```
+```yaml
 dependencies:
   universal_io: ^1.0.1
 ```
@@ -30,7 +30,7 @@ dependencies:
 $ flutter pub get
 ```
 於main.dart引用：
-```
+```dart
 import 'package:universal_io/driver.dart';
 import 'package:universal_io/driver_base.dart';
 import 'package:universal_io/io.dart';
